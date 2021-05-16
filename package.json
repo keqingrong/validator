@@ -1,9 +1,7 @@
 {
   "name": "@keqingrong/validator",
-  "author": "keqingrong",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Utilities for validation and sanitization",
-  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/validator.esm.js",
   "typings": "dist/index.d.ts",
@@ -12,6 +10,18 @@
     "src",
     "types"
   ],
+  "sideEffects": false,
+  "keywords": [
+    "sanitization",
+    "validation",
+    "validator"
+  ],
+  "author": "Qingrong Ke <keqingrong@outlook.com> (https://keqingrong.github.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keqingrong/validator.git"
+  },
   "engines": {
     "node": ">=10"
   },

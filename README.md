@@ -1,6 +1,8 @@
 # @keqingrong/validator
 
-> Utilities for validation and sanitization
+[![npm version](https://img.shields.io/npm/v/@keqingrong/validator.svg)](https://www.npmjs.com/package/@keqingrong/validator)
+
+Utilities for validation and sanitization
 
 ## Installation
 
@@ -30,3 +32,7 @@ validateIdCardNumber('321280202101011234');
 - `sanitizeChineseCharacter()`
 - `sanitizeEmoji()`
 - `Emoji_RegExp`
+
+## License
+
+MIT © Qingrong Ke
